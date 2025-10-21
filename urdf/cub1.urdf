@@ -13,7 +13,7 @@
     <visual>
       <origin xyz="0.18 -0. -0.02" rpy="0 0 1.57"/>
       <geometry>
-        <mesh filename="file:///home/wsribunm/ros2_ws/src/nightvapor/nightvapor_description/meshes/dae/cub_mesh.dae" scale="5 5 5" />
+        <mesh filename="package://cub_description/meshes/cub_mesh.dae" scale="5 5 5" />
       </geometry>
     </visual>
   </link>

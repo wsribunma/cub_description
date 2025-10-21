@@ -26,7 +26,7 @@ ARGUMENTS = [
 
 
 def generate_launch_description():
-    pkg_cub_description = Path(get_package_share_directory('nightvapor_description'))
+    pkg_cub_description = Path(get_package_share_directory('cub_description'))
     urdf_file = pkg_cub_description / 'urdf'/ 'simcub1.urdf'
 
     
